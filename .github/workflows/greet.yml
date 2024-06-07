@@ -3,7 +3,7 @@ name: Say Hello
 on:
   workflow_dispatch:
 
-obs:
+jobs:
   run-my-action:
     name: Checks if this action works
     runs-on: ubuntu-latest
